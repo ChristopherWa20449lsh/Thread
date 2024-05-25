@@ -7,7 +7,7 @@
 
 using namespace std;
 
-shared_mutex s_m;
+shared_mutex s_m; // 这里是初始化一个对象
 string book="EMPTY";
 
 void read(int i){
